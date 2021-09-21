@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f9fff2;
+}
+
+.title {
+    color: #0582dd;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.card {
+    text-align: center;
+    background-color: #fffb83;
+    width: 60%;
+    padding: 20px;
+    border: 10px solid #0c258d;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #ff6750;
+    font-size: 2rem;
+}
+
+.card p {
+    color: #17a3a9;
+}
+
+.creador {
+    color: #ff598f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin-right: 5px;
+}

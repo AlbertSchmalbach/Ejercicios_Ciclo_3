@@ -1,0 +1,40 @@
+caption {
+    font-family: 'Trocchi', serif;
+    color: #f4a391;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 2px solid #08a7ff;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+th {
+    color: bisque;
+    background-color: #0a8ca0;
+}
+
+th,
+td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #fafff3;
+}
+
+tr:nth-child(odd) {
+    background-color: #b9ffff;
+    ;
+}
