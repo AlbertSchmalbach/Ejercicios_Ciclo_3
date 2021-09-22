@@ -12,16 +12,20 @@ body {
     font-size: 1.6rem;
 }
 
-.title {
+header {
     width: 60rem;
-    font-family: serif;
+    color: #fff;
     text-align: center;
-    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    color: #000000;
-    background: #FFFFFF;
+    background-color: steelblue;
+    padding: 2rem;
+    border: 2px solid slategrey;
+    border-radius: 1rem;
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    box-shadow: 10px 11px 34px -10px rgba(0, 0, 0, 0.69);
+    -webkit-box-shadow: 10px 11px 34px -10px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 10px 11px 34px -10px rgba(0, 0, 0, 0.69);
 }
 
 .container_form {
