@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1.5rem;
+    background-color: bisque;
+}
+
+header {
+    width: 100rem;
+    text-align: center;
+    background-color: lightsalmon;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    border: .2rem solid #000;
+}
+
+.container {
+    width: 100rem;
+    margin-top: 5rem;
+    margin: 0 auto;
+}
+
+.cont-img {
+    width: 60rem;
+    background-color: #fff;
+    border: .2rem solid #000;
+    margin-bottom: 2rem;
+}
+
+.img {
+    width: 50rem;
+    height: 30rem;
+}
