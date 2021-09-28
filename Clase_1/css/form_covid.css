@@ -10,6 +10,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    background-color: #e0efed;
 }
 
 header {
@@ -28,7 +29,7 @@ header {
     -moz-box-shadow: 10px 11px 34px -10px rgba(0, 0, 0, 0.69);
 }
 
-.container_form {
+.form {
     width: 45rem;
     background-color: #c1c8ff;
     margin-top: 2rem;
@@ -59,6 +60,7 @@ div {
 label {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .alin_input {
@@ -71,6 +73,16 @@ label {
     padding: .5rem;
     border: 1px solid lightskyblue;
     border-radius: 1rem;
+    position: relative;
+    z-index: 10;
+}
+
+img {
+    display: inline;
+    z-index: 20;
+    position: relative;
+    top: 0;
+    left: -27px;
 }
 
 .condition {
