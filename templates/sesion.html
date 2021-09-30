@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/form_covid.css') }}" />
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">Registro para vacunación COVID-19</h1>
+    </header>
+
+
+    <form action="" , method="GET" class="form" autocomplete="on">
+        <!-- Nombre -->
+        <div>
+            <label for="name">
+                <span class="span">Nombre:</span>
+                <p class=".alin_input"><input type="text" name="name" id="name" class="input" placeholder="name" autocomplete="/"> </label
+                    ></p>
+                
+        </div>
+        
+      <!-- Usuario -->
+      <div>
+        <label for="user">
+            <span class="span">Usuario:</span>
+            <p class=".alin_input"><input type="text" name="user" id="user" class="input" placeholder="user"> </label></p>
+        </div>
+
+        <!-- Sexo -->
+        <div id="genero">
+            <label for="genero">
+            <span class="span">Sexo:</span>
+            <input type="radio" name="genero" id="h" />
+            <span class="span_radio">Hombre</span>
+            <input type="radio" name="genero" id="m" />
+            <span class="span_radio">Mujer</span> </label>
+        </div>
+
+        <!-- correo -->
+        <div>
+            <label for="mail">
+        <span class="span">Correo:</span>
+        <p class=".alin_input"><input type="email" name="mail" id="mail" class="input" placeholder="E-mail" autocomplete="off"> </label></p>
+        </div>
+
+        <!-- contraseña -->
+        <div>
+            <label for="password">
+            <span class="span">Contraseña:</span>&nbsp;&nbsp;&nbsp;
+            
+            <p class=".alin_input"><input type="password" name="password" id="password" class="input" placeholder="password"></label></p><img src="{{ url_for('static', filename='images/view.png') }}" alt="ojito" onmouseover="mostrarPassword()"
+                onmouseout="ocultarPassword()">
+        </div>
+
+        <!-- Condiciones -->
+        <div>
+            <label for="condition">
+            <input type="checkbox" name="condition" id="condition" required>
+            <span class="condition">haber leído y aceptar las condiciones generales del programa
+              y la normativa sobre protección de datos</span
+            > </label>
+        </div>
+
+        <input type="submit" value="Enviar" class="btn" disabled>
+    </form>
+
+    <script src="{{ url_for('static', filename='js/validacion.js') }}" type="text/js"></script>
+</body>
+
+</html>

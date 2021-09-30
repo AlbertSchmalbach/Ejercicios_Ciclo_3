@@ -107,6 +107,7 @@ function global:deactivate ([switch]$NonDestructive) {
     }
 }
 
+
 <#
 .Description
 Get-PyVenvConfig parses the values from the pyvenv.cfg file located in the
@@ -239,6 +240,10 @@ if (Test-Path -Path Env:PYTHONHOME) {
 # Add the venv to the PATH
 Copy-Item -Path Env:PATH -Destination Env:_OLD_VIRTUAL_PATH
 $Env:PATH = "$VenvExecDir$([System.IO.Path]::PathSeparator)$Env:PATH"
+
+
+$env:FLASK_APP = "main.py"
+$env:FLASK_ENV = "development"
 
 # SIG # Begin signature block
 # MIIcvgYJKoZIhvcNAQcCoIIcrzCCHKsCAQExDzANBglghkgBZQMEAgEFADB5Bgor
